@@ -37,4 +37,15 @@
   padding: 10px 5px;
   margin: 5px;
   background-color: white;
+  border-radius: 5px;
+}
+
+.vl{
+  border-left: 2px solid gray;
+  left: 10%;
+  right: 10%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 20px;
+  box-shadow: 0 0 5px gray;
 }

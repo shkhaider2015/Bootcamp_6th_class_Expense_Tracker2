@@ -1,5 +1,5 @@
 const TransactionReducer = ((state, action) => {
-    switch(action)
+    switch(action.type)
     {
         case "ADD":
             {

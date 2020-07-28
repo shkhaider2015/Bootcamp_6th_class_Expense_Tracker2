@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
 import Child from './child';
-// import {TransactionContext} from './transactionContext'
+import {TransactionProvider} from './transactionContext'
 
 
 function App() {
   return (
-    <div>
+    <TransactionProvider>
       <Child />
-    </div>
+    </TransactionProvider>
   );
 }
 
